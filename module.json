@@ -5,12 +5,12 @@
 	"description": "Set of Homebrew items and tables with macros",
 	"authors": [
 		{
-		        "id": "Bastidocus",
+		        "name": "Bastidocus",
 		        "email": "bastiantrepte@web.de",
 		        "url": "https://github.com/Basti407"
 		}
 	],
-	"version": "1.0.2",
+	"version": "1.0.1",
 	"packs": [
 		{		
 			"name": "weaponCharms",
@@ -25,6 +25,6 @@
 		"verified": "9"
   	},
 	"url": "https://github.com/Basti407/bastis-extraordinary-compendia",
-	"manifest": "https://raw.githubusercontent.com/Basti407/bastis-extraordinary-compendia/v1.0.2/module.json",
-	"download": "https://github.com/Basti407/bastis-extraordinary-compendia/archive/refs/tags/v1.0.2.zip"
+	"manifest": "https://raw.githubusercontent.com/Basti407/bastis-extraordinary-compendia/v1.0.1/module.json",
+	"download": "https://github.com/Basti407/bastis-extraordinary-compendia/archive/refs/tags/v1.0.1.zip"
 }
