@@ -1,0 +1,18 @@
+{
+	"name": "BastisExtraordinaryCompendia",
+	"title": "Bastis Extraordinary Compendia",
+	"description": "Sharing compendia across worlds",
+	"author": "Bastidocus",
+	"version": "1.0.0",
+	"minimumCoreVersion": "0.5.0",
+	"compatibleCoreVersion": "9.x",
+	"packs": [
+		{
+			"name": "weaponCharms",
+			"label": "Weapon Charm",
+			"path": "packs/weapon-charms.db",
+			"entity": "Item",
+			"module": "BastisExtraordinaryCompendia"
+		}
+	]
+}
