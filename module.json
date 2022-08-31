@@ -10,7 +10,7 @@
 		        "url": "https://github.com/Basti407"
 		}
 	],
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"packs": [
 		{		
 			"name": "weaponCharms",
@@ -18,13 +18,49 @@
 			"path": "packs/weapon-charms.db",
 			"entity": "Item",
 			"module": "bastis-extraordinary-compendia"
+		},
+		{
+			"name": "customItems",
+			"label": "Custom Items",
+			"path": "packs/custom-items.db",
+			"entity": "Item",
+			"module": "bastis-extraordinary-compendia"
+		},
+		{
+			"name": "homebrewRollTables",
+			"label": "Homebrew RollTables",
+			"path": "packs/homebrewrolltables.db",
+			"entity": "RollTable",
+			"module": "bastis-extraordinary-compendia"
+		},
+		{
+			"name": "homebrewRollTableMacros",
+			"label": "Homebrew RollTable Macros",
+			"path": "packs/homebrewrolltablemacros.db",
+			"entity": "Macro",
+			"module": "bastis-extraordinary-compendia"
+		},
+		{
+			"name": "superCritFumble",
+			"label": "SuperCrit / Fumble",
+			"path": "packs/supercritfumble.db",
+			"entity": "RollTable",
+			"module": "bastis-extraordinary-compendia"
+		},
+		{
+			"name": "superCritFumbleMacros",
+			"label": "SuperCrit / Fumble Macros",
+			"path": "packs/supercritfumblemacros.db",
+			"entity": "Macro",
+			"module": "bastis-extraordinary-compendia"
 		}
 	],
+	"minimumCoreVersion": "9.x",
 	"compatibility": {
 		"minimum": "9",
 		"verified": "9"
   	},
 	"url": "https://github.com/Basti407/bastis-extraordinary-compendia",
-	"manifest": "https://raw.githubusercontent.com/Basti407/bastis-extraordinary-compendia/v1.0.1/module.json",
-	"download": "https://github.com/Basti407/bastis-extraordinary-compendia/archive/refs/tags/v1.0.1.zip"
+	"manifest": "https://raw.githubusercontent.com/Basti407/bastis-extraordinary-compendia/v1.1.0/module.json",
+	"download": "https://github.com/Basti407/bastis-extraordinary-compendia/archive/refs/tags/v1.1.0.zip"
 }
