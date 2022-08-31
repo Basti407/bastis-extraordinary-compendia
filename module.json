@@ -1,9 +1,15 @@
 {
 	"id": "bastis-extraordinary-compendia"
-	"name": "BastisExtraordinaryCompendia",
+	"name": "bastis-extraordinary-compendia",
 	"title": "Bastis Extraordinary Compendia",
-	"description": "Sharing compendia across worlds",
-	"author": "Bastidocus",
+	"description": "Set of Homebrew items and tables with macros",
+	"authors": [
+	    {
+	      "id": "Bastidocus",
+	      "email": "bastiantrepte@web.de",
+	      "url": "https://github.com/Basti407"
+	    }
+	],
 	"version": "1.0.0",
 	"minimumCoreVersion": "0.5.0",
 	"compatibleCoreVersion": "9.x",
@@ -13,7 +19,7 @@
 			"label": "Weapon Charm",
 			"path": "packs/weapon-charms.db",
 			"entity": "Item",
-			"module": "BastisExtraordinaryCompendia"
+			"module": "bastis-extraordinary-compendia"
 		}
 	]
 }
