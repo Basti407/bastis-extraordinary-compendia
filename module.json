@@ -1,67 +1,55 @@
 {
-	"id": "bastis-extraordinary-compendia",
 	"name": "bastis-extraordinary-compendia",
 	"title": "Bastis Extraordinary Compendia",
 	"description": "Set of Homebrew items and tables with macros",
-	"authors": [
-		{
-		        "name": "Bastidocus",
-		        "email": "bastiantrepte@web.de",
-		        "url": "https://github.com/Basti407"
-		}
-	],
 	"version": "1.1.1",
+	"author": "Bastidocus",
+	"minimumCoreVersion": "0.8.6",
+	"compatibleCoreVersion": "9",
 	"packs": [
 		{		
-			"name": "weaponCharms",
-			"label": "Weapon Charm",
+			"name": "weapon-charms",
+			"label": "Weapon Charms",
 			"path": "packs/weapon-charms.db",
 			"entity": "Item",
-			"module": "bastis-extraordinary-compendia"
+			"type": "Item"
 		},
 		{
-			"name": "customItems",
+			"name": "custom-items",
 			"label": "Custom Items",
 			"path": "packs/custom-items.db",
 			"entity": "Item",
-			"module": "bastis-extraordinary-compendia"
+			"type": "Item"
 		},
 		{
-			"name": "homebrewRollTables",
+			"name": "homebrew-rolltables",
 			"label": "Homebrew RollTables",
-			"path": "packs/homebrewrolltables.db",
+			"path": "packs/homebrew-rolltables.db",
 			"entity": "RollTable",
-			"module": "bastis-extraordinary-compendia"
+			"type": "RollTable"
 		},
 		{
-			"name": "homebrewRollTableMacros",
+			"name": "homebrew-rolltable-macros",
 			"label": "Homebrew RollTable Macros",
-			"path": "packs/homebrewrolltablemacros.db",
+			"path": "packs/homebrew-rolltable-macros.db",
 			"entity": "Macro",
-			"module": "bastis-extraordinary-compendia"
+			"type": "Macro"
 		},
 		{
-			"name": "superCritFumble",
-			"label": "SuperCrit / Fumble",
-			"path": "packs/supercritfumble.db",
+			"name": "supercrit-fumble",
+			"label": "SuperCrit Fumble",
+			"path": "packs/supercrit-fumble.db",
 			"entity": "RollTable",
-			"module": "bastis-extraordinary-compendia"
+			"type": "RollTable"
 		},
 		{
-			"name": "superCritFumbleMacros",
-			"label": "SuperCrit / Fumble Macros",
-			"path": "packs/supercritfumblemacros.db",
+			"name": "supercrit-fumble-macros",
+			"label": "SuperCrit Fumble Macros",
+			"path": "packs/supercrit-fumble-macros.db",
 			"entity": "Macro",
-			"module": "bastis-extraordinary-compendia"
+			"type": "Macro"
 		}
 	],
-	"minimumCoreVersion": "9",
-	"compatibleCoreVersion": "9",
-	"compatibility": {
-		"minimum": "9",
-		"verified": "9"
-  	},
-	"url": "https://github.com/Basti407/bastis-extraordinary-compendia",
 	"manifest": "https://raw.githubusercontent.com/Basti407/bastis-extraordinary-compendia/raw/main/module.json",
 	"download": "https://github.com/Basti407/bastis-extraordinary-compendia/archive/refs/tags/v1.1.1.zip"
 }
